@@ -1,0 +1,246 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+   font-family: 'Rowdies', cursive;
+}
+
+
+.open_window
+{
+    position: relative;
+    text-align: center;
+}
+
+.open_window button
+{
+    border:none;
+    background-color: white;
+    padding: 5px;
+    cursor:pointer;
+}
+.open_window button i
+{
+    font-size: 30px;
+    color: gold;
+    
+}
+
+.open_window p
+{
+    color: white;
+    background-color:black;
+    padding: 5px 5px;
+    margin: auto;
+    max-width: 25%;
+    opacity: 75%;
+    
+}
+.overlay
+{
+    display:none;
+    background-color:blue;
+    opacity:30%;
+    width: 100vw;
+    height:100vh;
+    top: 0px;
+    left:0px;
+    position: absolute;
+    text-align: center;
+}
+
+.window
+{
+    background-color: rgba(104, 84, 190,0.9 );
+    display: none;
+    left:50%;
+    margin-left: -200px;
+    margin-top:-150px;
+    position: fixed;
+    top:50%;
+    max-width: 480px;
+    max-height: 320px;
+    z-index: 1000;
+    text-align:center;
+    border: 1px rgb(20, 151, 238) solid;
+}
+
+.window .picture
+{
+    max-width: 30%;
+    position: relative;
+    
+    margin-bottom:10px;
+    left: 33.3%;
+    
+    
+}
+
+.window .picture img
+{
+    max-width: 100%;
+    border-radius:10%; 
+   
+    
+}
+
+.window p
+{
+    padding:15px 0px;
+    color:white;
+    font-size: 20px;
+}
+
+.window button
+{
+   margin: 15px 0px 3px 0px;
+   width: 48%;
+   background: rgb(85,80,178);
+   background: rgb(80,138,178);
+   background: linear-gradient(0deg, rgba(80,138,178,1) 33%, rgba(45,230,200,1) 62%, rgba(0,212,255,1) 100%);
+   border:none;
+   padding: 15px 0px;
+   border-radius:5px; 
+   color:rgba(1, 1, 37, 0.8);
+   font-size: 20px;
+}
+
+.window .accept{
+    margin-right: 5px;
+}
+.window .close{
+    margin-left: 5px;
+}
+
+.window .accept i
+{
+    color:white;
+    border-radius:100%;
+    font-size: 20px;
+    background-color:green;
+    position:absolute;
+    padding: 5px;
+    left: 5%;
+    bottom:5%;   
+
+   
+    
+
+
+}
+
+@media screen and (max-width:850px){
+.open_window p 
+{
+    max-width: 30%;
+}
+    
+}
+
+@media screen and (max-width:710px){
+    .open_window p 
+    {
+        max-width: 50%;
+    }
+        
+    }
+
+    
+@media screen and (max-width:410px){
+    .open_window p 
+    {
+        max-width: 100%;
+    }
+
+    .window button
+    {
+        max-width: 45%;
+    }
+
+    .window .accept i
+    {
+        left:8%;
+    }
+    .window p
+    {
+        font-size: 17px;
+    }
+        
+    }
+
+    @media screen and (max-width:360px){
+       
+    
+        .window button
+        {
+            max-width: 40%;
+        }
+    
+        .window .accept i
+        {
+            font-size: 15px;
+            left:11%;
+            bottom:6.7%;
+        }
+            
+        }
+
+        @media screen and (max-width:320px){
+       
+    
+          
+        
+          .window
+          {
+             max-width: 320px;
+             left: 62.222%;
+            
+          }
+          .window .accept i
+          {
+              font-size: 12px;
+              left:11%;
+              bottom:6.7%;
+          }
+
+          .window button
+          {
+              font-size: 15px;
+          }
+          .window p
+          {
+              font-size: 15px;
+          }
+                
+            }
+
+            @media screen and (max-width:280px){
+       
+    
+          
+        
+                .window
+                {
+                   max-width: 280px;
+                   left: 72.222%;
+                  
+                }
+                .window button
+                {
+                    max-width: 45%;
+                }
+                .window .accept i
+                {
+                   
+                   font-size: 10px;
+                   bottom:7.8%;
+                   left: 5%;
+                }
+
+                .window p
+                {
+                    font-size: 12px;
+                }
+                      
+                  }
